@@ -30,6 +30,7 @@ public class Main implements InterfaceNav {
         container.add(new TelaInicial(this), "tela_inicial");
         container.add(new TelaMenu(this, jogo), "tela_menu");
         container.add(new TelaJogo(this, jogo), "tela_jogo");
+        container.add(new TelaPlacar(this), "tela_placar");
         
         frame.setContentPane(container);
     }

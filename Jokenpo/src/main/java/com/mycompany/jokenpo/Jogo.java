@@ -27,15 +27,24 @@ public class Jogo{
         }
         else if(modoJogo==3){
             for(int i=0; i<3; i++){
-                Random random = new Random();
-                int jogadaPC = random.nextInt(3)+1;
+                
             }            
         }
         else if(modoJogo==5){//usando else if pq ainda pretendo adicionar mais um modo
             for(int i=0; i<5; i++){
-                Random random = new Random();
-                int jogadaPC = random.nextInt(3)+1;
+                
             }         
+        }
+    }
+    
+    public void jogadaPC(){
+        Random random = new Random();
+        int jogadaPC = random.nextInt(3)+1;
+    }
+    
+    public void jogadaJogador(int opcao){
+        if(opcao==1){
+            
         }
     }
     
